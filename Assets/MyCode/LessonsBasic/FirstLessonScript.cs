@@ -15,6 +15,9 @@ namespace LessonBasic
         bool yanlis2 = false;
         [SerializeField] private Vector3 ucFloat = new Vector3(1, 2, 3);
 
+        // first lesson property
+        public float FloatProperty { get; private set; }
+
         void Start()
         {
 
